@@ -1,3 +1,116 @@
-body {
-    background-image: linear-gradient(to right, #8360c3, #2ebf91);
+/* GLOBAL STYLES */
+/* ************************************* */
+* {
+    font-family: "Marcellus SC", serif;
+    font-weight: 400;
+    font-style: normal;
+    margin: 0;
+    padding: 0;
 }
+
+.container {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+}
+/* ************************************* */
+
+
+/* HEADER STYLE */
+/* ************************************* */
+.header-container {
+    min-height: fit-content;
+}
+
+.header {
+    height: 23px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 20px;
+    padding-right: 100x;
+    color: rgb(216, 216, 216);
+    position: fixed;
+    /* top: 0; */
+    width: 100%;
+    z-index: 1000;
+}
+
+#header {
+    transition: background-color 0.4s ease;
+    width: 100vw;
+}
+  
+.header-scrolled {
+    background-color: #74709a; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 100vw;
+}
+
+.header li a {
+    text-decoration: none;
+    color: rgb(216, 216, 216)
+}
+.header .logo {
+    margin-left: 90px;
+}
+
+.logo span {
+    text-decoration: underline;
+}
+
+.header-lang {
+    color: #a6a6a6;
+    text-transform: uppercase;
+    margin-right: 90px;
+}
+.header-lang a:not(.active) {
+    text-decoration: none;
+    color: rgb(122, 121, 121)
+
+}
+.header-lang a {
+    text-decoration: none;
+    cursor: pointer;
+
+}
+.header-lang span {
+    margin-right: 6px;
+}
+.header-lang span.active {
+    color:rgb(216, 216, 216);
+    border-bottom: 1px solid rgb(216, 216, 216);
+
+}
+/* ************************************* */
+
+
+
+/* MAIN STYLE */
+/* ************************************* */
+/* ************************************* */
+/* Offer blcok */
+/* ************************************* */
+.main-offer {
+    background-image: url("../files/house.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-bottom: 40px;
+    height: 700px;
+    width: 100%;
+    height: fit-content;
+}
+
+.main-offer h1 {
+    color: rgb(216, 216, 216);
+    font-weight: 400;
+    font-size: 52px;
+    padding-top: 170px;
+    margin-bottom: 40px;
+    width: 70%;
+}
+/* ************************************* */
