@@ -165,7 +165,7 @@
 
 .offer-block button {
     border-radius: 10px;
-    /* border: none; */
+    border: none;
     width: 140px;
     height: 40px;
     color: white;
@@ -173,4 +173,7 @@
     cursor: pointer;
     background-color: #f4c005;
 }
+/* ************************************* */
+
+/* steps block */
 /* ************************************* */
