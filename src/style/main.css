@@ -138,10 +138,10 @@
 /* ************************************* */
 /* Offer blcok */
 /* ************************************* */
-/* section {
-    padding-top: 60px;
+section {
+    margin-bottom: 40px;
 }
-*/
+
 .main {
     display: flex;
     flex-direction: column;
@@ -344,3 +344,227 @@
     width: 26px;
 }
 /* ************************************* */
+
+/* ************************************* */
+/* benefits containter */
+#about-us-section {
+    margin-bottom: 40px;
+}
+.about-us-main-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    position: relative;
+}
+
+.about-us-main-container h2 {
+    font-size: 44px;
+    font-weight: 400;
+}
+
+.about-us-containers {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    height: max-content;
+    width: fit-content;
+    margin-top: 50px;
+}
+
+.about-us-text button {
+    border-radius: 10px;
+    border: none;
+    width: 140px;
+    height: 40px;
+    color: white;
+    margin-top: 25px;
+    cursor: pointer;
+    background-color: #f4c005;
+    font-size: 20px;
+}
+
+
+
+.about-us-photo img {
+ max-height: 400px;
+ max-width: 400px;
+ border-radius: 50%;
+}
+
+.about-us-text {
+    max-width: 600px;
+    margin-right: 60px;
+    margin-bottom: 60px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.about-us-photo {
+    max-width: 400px;
+}
+
+.about-us-text h4 {
+    margin-bottom: 40px;
+    font-size: 40px;
+    font-weight: 200;
+    color: #5d5a5a;
+}
+
+.about-us-text p {
+    font-weight: 500px;
+    max-width: 500px;
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: #5d5a5a;
+}
+
+.about-us-text h5 {
+    font-size: 26px;
+    font-weight: 200;
+    color: #5d5a5a;
+}
+/* ************************************* */
+
+
+/* ************************************* */
+/* location containter */
+.main-location-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    position: relative;
+}
+
+.main-location-container h2 {
+    font-size: 44px;
+    font-weight: 400;
+}
+
+.location-container {
+    max-width: 1000px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    height: max-content;
+    width: fit-content;
+}
+
+.map-area {
+    max-width: 500px;
+    margin-right: 150px;
+}
+
+.location-text {
+    width: 330px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.location-text-block p {
+    font-weight: 400;
+    max-width: px;
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: #000000;
+}
+
+.location-container button {
+    border-radius: 30px;
+    /* border: none; */
+    width: 170px;
+    height: 50px;
+    color: #010b94;
+    margin-top: 25px;
+    cursor: pointer;
+    background-color: white;
+    font-size: 20px;
+    border-radius: 3px solid #010b94;
+}
+/* ************************************* */
+
+
+/* ************************************* */
+/* footer containter */
+
+footer {
+    /* height: 200px; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #74709a;
+    max-height: fit-content;
+}
+.footer-container {
+    display: flex;
+    margin: 0 20px 0 30px;
+    justify-content: center;
+}
+.footer-links {
+    margin-top: 10px;
+    width: 850px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.footer-links a {
+    text-decoration: none;
+    color: rgb(216, 216, 216);
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+.footer-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    margin-right: 40px;
+}
+
+.footer-button button {
+    width: 200px;
+    height: 40px;
+    border-radius: 30px;
+    border: 2px solid rgb(216, 216, 216);
+    background-color: #74709a;
+}
+
+.footer-button button a {
+    font-size: 20px;
+    color: rgb(216, 216, 216);
+    text-decoration: none;
+}
+
+.public-affort-block {
+    flex-grow: 2;
+}
+
+footer strong a{
+
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color: rgb(216, 216, 216);
+}
+
+footer strong {
+    margin-top: 30px;
+}
+
+.footer-text {
+    margin-left: 40px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.footer-text p {
+    color: rgb(216, 216, 216);
+    font-size: 13px;
+}
+/* ************************************* */
+
+
