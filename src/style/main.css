@@ -8,6 +8,13 @@
     padding: 0;
 }
 
+@media screen {
+    :root {
+        scroll-behavior: smooth;
+    }
+    
+}
+
 .container {
     max-width: 1200px;
     width: 100%;
